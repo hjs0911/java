@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.hkit.android_actionbar.MainActivity" >
+
+    <item
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="always|withText"
+        android:title="하나"/>
+    <item
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom"
+        android:title="둘"/>
+    <item
+        android:showAsAction="ifRoom"
+        android:title="셋"/>
+    <item
+        android:showAsAction="ifRoom"
+        android:title="넷"/>
+    <item
+        android:showAsAction="ifRoom"
+        android:title="다섯"/>
+    <item android:title="여섯"/>
+
+</menu>
