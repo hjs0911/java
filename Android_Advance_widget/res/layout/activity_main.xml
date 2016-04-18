@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/laout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="프로그래스 바"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn01_title" />
+
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn02_title" />
+
+        <Button
+            android:id="@+id/btn03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn03_title" />
+
+        <Button
+            android:id="@+id/btn04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn04_title" />
+
+        <TextView
+            android:id="@+id/tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고급위젯"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/btn05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn05_title" />
+
+        <Button
+            android:id="@+id/btn06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn06_title" />
+
+        <Button
+            android:id="@+id/btn07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn07_title" />
+
+        <Button
+            android:id="@+id/btn08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn08_title" />
+
+        <Button
+            android:id="@+id/btn09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn09_title" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn10_title" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn11_title" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnOnClick"
+            android:text="@string/btn12_title" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.hkit.android_advance_widget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".progressbar.ProgressBarEx2" android:label="@string/btn02_title"></activity>
+        <activity android:name=".progressbar.ProgressBarEx" android:label="@string/btn01_title"></activity>
+        <activity android:name=".ratingbar.RatingBarEx" android:label="@string/btn03_title"></activity>
+        <activity android:name=".progressbar.ProgressBarEx3" android:label="@string/btn03_title"></activity>
+        <activity android:name=".progressbar.SeekBarEx" android:label="@string/btn04_title"></activity>
+        <activity android:name=".datapicker.DataPickerEx" android:label="@string/btn06_title"></activity>
+        <activity android:name=".webview.WebViewEx" android:label="@string/btn07_title"></activity>
+        <activity android:name=".switchex.SwitchEx" android:label="@string/btn08_title"></activity>
+        <activity android:name=".space.SpaceEx" android:label="@string/btn09_title"></activity>
+        <activity android:name=".numberpicker.NumberPickerEx" android:label="@string/btn10_title"></activity>
+        <activity android:name=".calendarview.CalendarViewEx" android:label="@string/btn11_title"></activity>
+        <activity android:name=".listpopup.ListPopupEx" android:label="@string/btn12_title"></activity>
+    </application>
+
+</manifest>

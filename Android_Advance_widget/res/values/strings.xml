@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_Advance_widget</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn01_title">프로그래스 바01</string>
+    <string name="btn_DecF_title">Dec First</string>
+    <string name="btn_IncF_title">Inc First</string>
+    <string name="btn_DecS_title">Dec Second</string>
+    <string name="btn_IncS_title">Inc Second</string>
+    <string name="btn_Start_title">Start</string>
+    <string name="btn_Stop_title">Stop</string>
+    <string name="btn02_title">프로그래스 바02</string>
+    <string name="btn05_title">레이팅 바</string>
+    <string name="btn03_title">프로그래스 바03</string>
+    <string name="btn04_title">시크 바</string>
+    <string name="volumeText">Now Volume : 57</string>
+    <string name="btn06_title">날짜와 시간</string>
+    <string name="btnChangeDataText">날짜 대화상자</string>
+    <string name="btnChageTimeText">시간 대화상자</string>
+    <string name="btn07_title">웹 뷰</string>
+    <string name="btn_go_text">Go</string>
+    <string name="btn_back_text">Back</string>
+    <string name="btn_forward_text">Ford</string>
+    <string name="btn_local_text">Local</string>
+    <string name="btn08_title">스 위 치</string>
+    <string name="btn09_title">스페이스</string>
+    <string name="btn10_title">Number Picker</string>
+    <string name="btn11_title">Calendar View</string>
+    <string name="btn12_title">List Popup</string>
+
+</resources>
