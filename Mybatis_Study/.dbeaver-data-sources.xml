@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql5-151c8b2cd10-7d3bbf0fa956486e" provider="mysql" driver="mysql5" name="MySQL - MySql(root)" create-date="1450771156621" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="MySql" url="jdbc:mysql://localhost:3306/MySql" user="root" password="AQsJNFNMSwJl8w==" home="C:\Program Files\MySQL\MySQL Server 5.5" type="dev">
+			<property name="@dbeaver-ssl@" value="false"/>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="host" value=""/>
+				<property name="keyPath" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<bootstrap/>
+		</connection>
+	</data-source>
+	<data-source id="mysql5-1520b9c5fbd-74a4ec9ed6373cd" provider="mysql" driver="mysql5" name="MySQL - mybatis_dev(user_mybatis)" create-date="1451893788027" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="mybatis_dev" url="jdbc:mysql://localhost:3306/mybatis_dev" user="user_mybatis" password="Hh0EIVVKVykWBhM6Dnak" home="C:\Program Files\MySQL\MySQL Server 5.5" type="dev">
+			<property name="@dbeaver-ssl@" value="false"/>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="host" value=""/>
+				<property name="keyPath" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<bootstrap/>
+		</connection>
+	</data-source>
+</data-sources>

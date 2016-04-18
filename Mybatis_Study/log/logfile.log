@@ -1,0 +1,783 @@
+[2015-12-28 14:28:18,045][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 14:28:20,069][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 14:28:20,069][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 14:28:20,069][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 14:28:20,069][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:11:49,977][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:11:50,489][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:11:50,489][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:11:50,489][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:11:50,489][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:11:50,720][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:11:51,107][DEBUG](PooledDataSource.java:387) - Created connection 19754018.
+[2015-12-28 15:11:51,113][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:11:51,216][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:11:51,279][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:11:51,297][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:11:51,299][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:11:51,300][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:11:51,300][DEBUG](PooledDataSource.java:344) - Returned connection 19754018 to pool.
+[2015-12-28 15:11:51,302][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:11:51,302][DEBUG](PooledDataSource.java:379) - Checked out connection 19754018 from pool.
+[2015-12-28 15:11:51,303][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:11:51,304][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:11:51,306][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 5(Integer), 안성민(String), ann@naver.com(String), 2015-12-28 15:11:51.302(Timestamp)
+[2015-12-28 15:11:51,314][DEBUG](BaseJdbcLogger.java:142) - <==    Updates: 1
+[2015-12-28 15:11:51,315][DEBUG](JdbcTransaction.java:71) - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:11:51,348][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:11:51,349][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:11:51,349][DEBUG](PooledDataSource.java:344) - Returned connection 19754018 to pool.
+[2015-12-28 15:12:30,716][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:12:30,938][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:12:30,938][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:12:30,939][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:12:30,939][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:12:31,061][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:12:31,331][DEBUG](PooledDataSource.java:387) - Created connection 18233886.
+[2015-12-28 15:12:31,332][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1163a1e]
+[2015-12-28 15:12:31,339][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:12:31,377][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:12:31,394][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:12:31,395][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1163a1e]
+[2015-12-28 15:12:31,395][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1163a1e]
+[2015-12-28 15:12:31,395][DEBUG](PooledDataSource.java:344) - Returned connection 18233886 to pool.
+[2015-12-28 15:12:31,398][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:12:31,398][DEBUG](PooledDataSource.java:379) - Checked out connection 18233886 from pool.
+[2015-12-28 15:12:31,399][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1163a1e]
+[2015-12-28 15:12:31,400][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:12:31,402][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 5(Integer), 안성민(String), ann@naver.com(String), 2015-12-28 15:12:31.397(Timestamp)
+[2015-12-28 15:12:31,413][DEBUG](JdbcTransaction.java:81) - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@1163a1e]
+[2015-12-28 15:12:31,418][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1163a1e]
+[2015-12-28 15:12:31,418][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1163a1e]
+[2015-12-28 15:12:31,418][DEBUG](PooledDataSource.java:344) - Returned connection 18233886 to pool.
+[2015-12-28 15:12:58,587][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:12:58,789][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:12:58,790][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:12:58,790][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:12:58,790][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:12:58,910][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:12:59,201][DEBUG](PooledDataSource.java:387) - Created connection 19754018.
+[2015-12-28 15:12:59,206][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:12:59,209][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:12:59,246][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:12:59,263][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:12:59,264][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:12:59,264][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@12d6c22]
+[2015-12-28 15:12:59,264][DEBUG](PooledDataSource.java:344) - Returned connection 19754018 to pool.
+[2015-12-28 15:14:04,747][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:14:04,954][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:14:04,954][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:14:04,954][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:14:04,954][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:14:05,073][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:14:05,372][DEBUG](PooledDataSource.java:387) - Created connection 18838616.
+[2015-12-28 15:14:05,373][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,375][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 15:14:05,417][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:14:05,435][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 5
+[2015-12-28 15:14:05,436][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,436][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,436][DEBUG](PooledDataSource.java:344) - Returned connection 18838616 to pool.
+[2015-12-28 15:14:05,439][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:14:05,440][DEBUG](PooledDataSource.java:379) - Checked out connection 18838616 from pool.
+[2015-12-28 15:14:05,441][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,441][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:14:05,442][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:14:05,443][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:14:05,444][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,444][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,444][DEBUG](PooledDataSource.java:344) - Returned connection 18838616 to pool.
+[2015-12-28 15:14:05,445][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:14:05,445][DEBUG](PooledDataSource.java:379) - Checked out connection 18838616 from pool.
+[2015-12-28 15:14:05,445][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,446][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:14:05,448][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 5(Integer), 안성민(String), ann@naver.com(String), 2015-12-28 15:14:05.445(Timestamp)
+[2015-12-28 15:14:05,460][DEBUG](JdbcTransaction.java:81) - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,462][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,463][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:14:05,463][DEBUG](PooledDataSource.java:344) - Returned connection 18838616 to pool.
+[2015-12-28 15:17:39,915][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:17:40,127][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:17:40,127][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:17:40,127][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:17:40,128][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:17:40,257][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:17:40,547][DEBUG](PooledDataSource.java:387) - Created connection 33434611.
+[2015-12-28 15:17:40,547][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,550][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 15:17:40,594][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:17:40,611][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 5
+[2015-12-28 15:17:40,612][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,613][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,613][DEBUG](PooledDataSource.java:344) - Returned connection 33434611 to pool.
+[2015-12-28 15:17:40,616][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:17:40,616][DEBUG](PooledDataSource.java:379) - Checked out connection 33434611 from pool.
+[2015-12-28 15:17:40,617][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,618][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:17:40,618][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:17:40,620][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:17:40,620][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,621][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,621][DEBUG](PooledDataSource.java:344) - Returned connection 33434611 to pool.
+[2015-12-28 15:17:40,621][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:17:40,622][DEBUG](PooledDataSource.java:379) - Checked out connection 33434611 from pool.
+[2015-12-28 15:17:40,622][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,622][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:17:40,624][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 6(Integer), 안성민(String), ann@naver.com(String), 2015-12-28 15:17:40.621(Timestamp)
+[2015-12-28 15:17:40,625][DEBUG](BaseJdbcLogger.java:142) - <==    Updates: 1
+[2015-12-28 15:17:40,625][DEBUG](JdbcTransaction.java:71) - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,649][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,650][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fe2bf3]
+[2015-12-28 15:17:40,650][DEBUG](PooledDataSource.java:344) - Returned connection 33434611 to pool.
+[2015-12-28 15:18:46,705][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:18:46,918][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:46,919][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:46,919][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:46,919][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:47,034][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:47,308][DEBUG](PooledDataSource.java:387) - Created connection 18838616.
+[2015-12-28 15:18:47,308][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,311][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 15:18:47,352][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:18:47,372][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 4
+[2015-12-28 15:18:47,373][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,373][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,373][DEBUG](PooledDataSource.java:344) - Returned connection 18838616 to pool.
+[2015-12-28 15:18:47,376][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:47,377][DEBUG](PooledDataSource.java:379) - Checked out connection 18838616 from pool.
+[2015-12-28 15:18:47,378][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,379][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:18:47,379][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:18:47,381][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:18:47,381][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,381][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,382][DEBUG](PooledDataSource.java:344) - Returned connection 18838616 to pool.
+[2015-12-28 15:18:47,382][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:47,383][DEBUG](PooledDataSource.java:379) - Checked out connection 18838616 from pool.
+[2015-12-28 15:18:47,383][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,383][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:18:47,385][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 5(Integer), 안성민(String), ann@naver.com(String), 2015-12-28 15:18:47.382(Timestamp)
+[2015-12-28 15:18:47,386][DEBUG](BaseJdbcLogger.java:142) - <==    Updates: 1
+[2015-12-28 15:18:47,386][DEBUG](JdbcTransaction.java:71) - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,411][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,412][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f7458]
+[2015-12-28 15:18:47,413][DEBUG](PooledDataSource.java:344) - Returned connection 18838616 to pool.
+[2015-12-28 15:18:49,937][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:18:50,137][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:50,138][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:50,138][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:50,138][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:50,258][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:50,553][DEBUG](PooledDataSource.java:387) - Created connection 1008098.
+[2015-12-28 15:18:50,553][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,556][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 15:18:50,597][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:18:50,615][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 5
+[2015-12-28 15:18:50,616][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,616][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,616][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:18:50,620][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:50,620][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:18:50,621][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,621][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:18:50,622][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:18:50,623][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:18:50,624][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,624][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,624][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:18:50,625][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:50,625][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:18:50,625][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,626][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:18:50,627][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 5(Integer), 안성민(String), ann@naver.com(String), 2015-12-28 15:18:50.625(Timestamp)
+[2015-12-28 15:18:50,640][DEBUG](JdbcTransaction.java:81) - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,642][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,642][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:50,643][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:18:54,006][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:18:54,203][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:54,203][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:54,204][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:54,204][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:18:54,315][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:54,591][DEBUG](PooledDataSource.java:387) - Created connection 1008098.
+[2015-12-28 15:18:54,592][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,594][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 15:18:54,635][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:18:54,655][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 5
+[2015-12-28 15:18:54,656][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,657][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,657][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:18:54,661][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:54,661][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:18:54,663][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,664][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:18:54,665][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:18:54,666][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:18:54,666][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,667][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,667][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:18:54,668][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:18:54,668][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:18:54,668][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,668][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:18:54,670][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 6(Integer), 안성민(String), ann@naver.com(String), 2015-12-28 15:18:54.667(Timestamp)
+[2015-12-28 15:18:54,671][DEBUG](BaseJdbcLogger.java:142) - <==    Updates: 1
+[2015-12-28 15:18:54,671][DEBUG](JdbcTransaction.java:71) - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,705][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,706][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:18:54,706][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:20:19,538][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:20:19,741][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:20:19,741][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:20:19,742][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:20:19,742][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:20:19,855][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:20:20,126][DEBUG](PooledDataSource.java:387) - Created connection 1008098.
+[2015-12-28 15:20:20,127][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,129][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 15:20:20,170][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:20:20,189][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 6
+[2015-12-28 15:20:20,190][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,190][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,190][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:20:20,194][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:20:20,194][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:20:20,195][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,195][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:20:20,196][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:20:20,197][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:20:20,197][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,198][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,198][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:20:20,199][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:20:20,199][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:20:20,199][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,199][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:20:20,201][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 7(Integer), 갓성민(String), ann@naver.com(String), 2015-12-28 15:20:20.198(Timestamp)
+[2015-12-28 15:20:20,202][DEBUG](BaseJdbcLogger.java:142) - <==    Updates: 1
+[2015-12-28 15:20:20,202][DEBUG](JdbcTransaction.java:71) - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,247][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,247][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:20:20,247][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:22:40,382][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:22:40,615][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:22:40,616][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:22:40,616][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:22:40,616][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:22:40,729][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:22:41,003][DEBUG](PooledDataSource.java:387) - Created connection 1008098.
+[2015-12-28 15:22:41,004][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,006][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 15:22:41,047][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:22:41,066][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 7
+[2015-12-28 15:22:41,067][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,067][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,067][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:22:41,071][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:22:41,071][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:22:41,072][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,073][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:22:41,073][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:22:41,075][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:22:41,075][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,075][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,075][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:22:41,076][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:22:41,076][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:22:41,076][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,077][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:22:41,079][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 7(Integer), 성민갓(String), ann@naver.com(String), 2015-12-28 15:22:41.076(Timestamp)
+[2015-12-28 15:22:41,091][DEBUG](JdbcTransaction.java:81) - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,094][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,094][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:41,094][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:22:48,398][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:22:48,610][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:22:48,610][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:22:48,610][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:22:48,610][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:22:48,725][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:22:49,005][DEBUG](PooledDataSource.java:387) - Created connection 1008098.
+[2015-12-28 15:22:49,005][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,008][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 15:22:49,048][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:22:49,067][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 7
+[2015-12-28 15:22:49,068][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,068][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,068][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:22:49,072][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:22:49,072][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:22:49,073][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,074][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 15:22:49,075][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 15:22:49,077][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 15:22:49,077][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,078][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,078][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:22:49,079][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:22:49,079][DEBUG](PooledDataSource.java:379) - Checked out connection 1008098 from pool.
+[2015-12-28 15:22:49,079][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,080][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 15:22:49,084][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 8(Integer), 성민갓(String), ann@naver.com(String), 2015-12-28 15:22:49.079(Timestamp)
+[2015-12-28 15:22:49,084][DEBUG](BaseJdbcLogger.java:142) - <==    Updates: 1
+[2015-12-28 15:22:49,085][DEBUG](JdbcTransaction.java:71) - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,125][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,125][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f61e2]
+[2015-12-28 15:22:49,125][DEBUG](PooledDataSource.java:344) - Returned connection 1008098 to pool.
+[2015-12-28 15:52:20,133][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 15:52:20,224][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:52:20,428][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:52:20,428][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:52:20,429][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:52:20,429][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:52:20,556][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:52:20,847][DEBUG](PooledDataSource.java:387) - Created connection 5873885.
+[2015-12-28 15:52:20,848][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@59a0dd]
+[2015-12-28 15:52:20,851][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 15:52:20,887][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:52:20,906][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 15:52:20,907][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@59a0dd]
+[2015-12-28 15:52:20,908][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@59a0dd]
+[2015-12-28 15:52:20,908][DEBUG](PooledDataSource.java:344) - Returned connection 5873885 to pool.
+[2015-12-28 15:54:17,110][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 15:54:17,190][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 15:54:17,387][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:54:17,387][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:54:17,388][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:54:17,388][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 15:54:17,516][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 15:54:17,795][DEBUG](PooledDataSource.java:387) - Created connection 5873885.
+[2015-12-28 15:54:17,796][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@59a0dd]
+[2015-12-28 15:54:17,798][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 15:54:17,842][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 15:54:17,862][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 15:54:17,862][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@59a0dd]
+[2015-12-28 15:54:17,863][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@59a0dd]
+[2015-12-28 15:54:17,863][DEBUG](PooledDataSource.java:344) - Returned connection 5873885 to pool.
+[2015-12-28 16:05:00,681][DEBUG](StudentService.java:75) - findStudentByIdForInterface()
+[2015-12-28 16:05:00,803][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:05:01,012][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:05:01,012][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:05:01,012][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:05:01,012][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:05:01,141][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:05:01,594][DEBUG](PooledDataSource.java:387) - Created connection 6577246.
+[2015-12-28 16:05:01,595][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@645c5e]
+[2015-12-28 16:05:01,597][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from studentwhere stud_id = ? 
+[2015-12-28 16:05:01,633][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 16:05:01,646][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@645c5e]
+[2015-12-28 16:05:01,647][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@645c5e]
+[2015-12-28 16:05:01,647][DEBUG](PooledDataSource.java:344) - Returned connection 6577246 to pool.
+[2015-12-28 16:05:01,652][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 16:05:01,652][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:05:01,653][DEBUG](PooledDataSource.java:379) - Checked out connection 6577246 from pool.
+[2015-12-28 16:05:01,653][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@645c5e]
+[2015-12-28 16:05:01,654][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 16:05:01,654][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 16:05:01,673][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 16:05:01,674][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@645c5e]
+[2015-12-28 16:05:01,674][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@645c5e]
+[2015-12-28 16:05:01,674][DEBUG](PooledDataSource.java:344) - Returned connection 6577246 to pool.
+[2015-12-28 16:05:59,065][DEBUG](StudentService.java:75) - findStudentByIdForInterface()
+[2015-12-28 16:05:59,146][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:05:59,340][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:05:59,340][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:05:59,340][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:05:59,341][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:05:59,471][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:05:59,743][DEBUG](PooledDataSource.java:387) - Created connection 17972619.
+[2015-12-28 16:05:59,744][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:05:59,746][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id = ? 
+[2015-12-28 16:05:59,781][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 16:05:59,798][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 16:05:59,799][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:05:59,799][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:05:59,799][DEBUG](PooledDataSource.java:344) - Returned connection 17972619 to pool.
+[2015-12-28 16:05:59,801][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 16:05:59,803][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:05:59,803][DEBUG](PooledDataSource.java:379) - Checked out connection 17972619 from pool.
+[2015-12-28 16:05:59,804][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:05:59,804][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 16:05:59,805][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 16:05:59,808][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 16:05:59,809][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:05:59,809][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:05:59,810][DEBUG](PooledDataSource.java:344) - Returned connection 17972619 to pool.
+[2015-12-28 16:06:45,603][DEBUG](StudentService.java:75) - findStudentByIdForInterface()
+[2015-12-28 16:06:45,696][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:06:45,892][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:06:45,892][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:06:45,892][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:06:45,893][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:06:46,020][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:06:46,294][DEBUG](PooledDataSource.java:387) - Created connection 26709654.
+[2015-12-28 16:06:46,295][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1978e96]
+[2015-12-28 16:06:46,297][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id = ? 
+[2015-12-28 16:06:46,333][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 16:06:46,351][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 16:06:46,351][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1978e96]
+[2015-12-28 16:06:46,352][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1978e96]
+[2015-12-28 16:06:46,352][DEBUG](PooledDataSource.java:344) - Returned connection 26709654 to pool.
+[2015-12-28 16:06:46,354][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 16:06:46,356][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:06:46,356][DEBUG](PooledDataSource.java:379) - Checked out connection 26709654 from pool.
+[2015-12-28 16:06:46,356][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1978e96]
+[2015-12-28 16:06:46,357][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 16:06:46,357][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 16:06:46,360][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 16:06:46,360][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1978e96]
+[2015-12-28 16:06:46,361][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1978e96]
+[2015-12-28 16:06:46,361][DEBUG](PooledDataSource.java:344) - Returned connection 26709654 to pool.
+[2015-12-28 16:07:07,083][DEBUG](StudentService.java:75) - findStudentByIdForInterface()
+[2015-12-28 16:07:07,178][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:07:07,370][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:07:07,370][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:07:07,370][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:07:07,370][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:07:07,498][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:07:07,770][DEBUG](PooledDataSource.java:387) - Created connection 8823414.
+[2015-12-28 16:07:07,770][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@86a276]
+[2015-12-28 16:07:07,773][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id = ? 
+[2015-12-28 16:07:07,809][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 16:07:07,826][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 16:07:07,826][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@86a276]
+[2015-12-28 16:07:07,827][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@86a276]
+[2015-12-28 16:07:07,827][DEBUG](PooledDataSource.java:344) - Returned connection 8823414 to pool.
+[2015-12-28 16:07:07,829][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 16:07:07,831][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:07:07,831][DEBUG](PooledDataSource.java:379) - Checked out connection 8823414 from pool.
+[2015-12-28 16:07:07,831][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@86a276]
+[2015-12-28 16:07:07,832][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 16:07:07,832][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 16:07:07,835][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 16:07:07,835][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@86a276]
+[2015-12-28 16:07:07,835][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@86a276]
+[2015-12-28 16:07:07,836][DEBUG](PooledDataSource.java:344) - Returned connection 8823414 to pool.
+[2015-12-28 16:07:21,600][DEBUG](StudentService.java:75) - findStudentByIdForInterface()
+[2015-12-28 16:07:21,682][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:07:21,882][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:07:21,882][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:07:21,882][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:07:21,882][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:07:22,009][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:07:22,281][DEBUG](PooledDataSource.java:387) - Created connection 6788172.
+[2015-12-28 16:07:22,282][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@67944c]
+[2015-12-28 16:07:22,284][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id = ? 
+[2015-12-28 16:07:22,320][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 16:07:22,338][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 16:07:22,338][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@67944c]
+[2015-12-28 16:07:22,339][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@67944c]
+[2015-12-28 16:07:22,339][DEBUG](PooledDataSource.java:344) - Returned connection 6788172 to pool.
+[2015-12-28 16:07:22,341][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 16:07:22,343][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:07:22,343][DEBUG](PooledDataSource.java:379) - Checked out connection 6788172 from pool.
+[2015-12-28 16:07:22,343][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@67944c]
+[2015-12-28 16:07:22,344][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 16:07:22,344][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 16:07:22,347][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 16:07:22,347][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@67944c]
+[2015-12-28 16:07:22,348][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@67944c]
+[2015-12-28 16:07:22,348][DEBUG](PooledDataSource.java:344) - Returned connection 6788172 to pool.
+[2015-12-28 16:08:17,829][DEBUG](StudentService.java:75) - findStudentByIdForInterface()
+[2015-12-28 16:08:17,910][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:08:18,103][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:08:18,104][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:08:18,104][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:08:18,104][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:08:18,235][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:08:18,508][DEBUG](PooledDataSource.java:387) - Created connection 17972619.
+[2015-12-28 16:08:18,508][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:18,511][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id = ? 
+[2015-12-28 16:08:18,546][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 16:08:18,563][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 16:08:18,564][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:18,564][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:18,565][DEBUG](PooledDataSource.java:344) - Returned connection 17972619 to pool.
+[2015-12-28 16:08:18,567][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 16:08:18,569][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:08:18,569][DEBUG](PooledDataSource.java:379) - Checked out connection 17972619 from pool.
+[2015-12-28 16:08:18,570][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:18,571][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 16:08:18,571][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 16:08:18,574][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 16:08:18,575][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:18,575][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:18,576][DEBUG](PooledDataSource.java:344) - Returned connection 17972619 to pool.
+[2015-12-28 16:08:32,558][DEBUG](StudentService.java:75) - findStudentByIdForInterface()
+[2015-12-28 16:08:32,640][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:08:32,844][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:08:32,844][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:08:32,844][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:08:32,844][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:08:32,973][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:08:33,247][DEBUG](PooledDataSource.java:387) - Created connection 17972619.
+[2015-12-28 16:08:33,247][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:33,250][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id = ? 
+[2015-12-28 16:08:33,286][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 16:08:33,303][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 16:08:33,303][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:33,304][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:33,304][DEBUG](PooledDataSource.java:344) - Returned connection 17972619 to pool.
+[2015-12-28 16:08:33,306][DEBUG](StudentService.java:62) - findAllStudentForInterface()
+[2015-12-28 16:08:33,308][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:08:33,308][DEBUG](PooledDataSource.java:379) - Checked out connection 17972619 from pool.
+[2015-12-28 16:08:33,308][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:33,309][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 16:08:33,309][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 16:08:33,312][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 8
+[2015-12-28 16:08:33,312][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:33,313][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1123d8b]
+[2015-12-28 16:08:33,313][DEBUG](PooledDataSource.java:344) - Returned connection 17972619 to pool.
+[2015-12-28 16:17:42,311][DEBUG](StudentService.java:76) - findStudentByIdForInterface()
+[2015-12-28 16:17:42,405][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:17:42,605][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:17:42,605][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:17:42,605][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:17:42,605][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:17:42,735][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:17:43,008][DEBUG](PooledDataSource.java:387) - Created connection 138214.
+[2015-12-28 16:17:43,009][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,011][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id = ? 
+[2015-12-28 16:17:43,048][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 16:17:43,066][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 16:17:43,066][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,067][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,067][DEBUG](PooledDataSource.java:344) - Returned connection 138214 to pool.
+[2015-12-28 16:17:43,069][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:17:43,070][DEBUG](PooledDataSource.java:379) - Checked out connection 138214 from pool.
+[2015-12-28 16:17:43,071][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,071][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 16:17:43,073][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 9(Integer), 슈퍼성민갓!(String), god@naver.com(String), 2015-12-28 16:17:43.069(Timestamp)
+[2015-12-28 16:17:43,074][DEBUG](BaseJdbcLogger.java:142) - <==    Updates: 1
+[2015-12-28 16:17:43,074][DEBUG](JdbcTransaction.java:71) - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,108][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,108][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,108][DEBUG](PooledDataSource.java:344) - Returned connection 138214 to pool.
+[2015-12-28 16:17:43,109][DEBUG](StudentService.java:63) - findAllStudentForInterface()
+[2015-12-28 16:17:43,109][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:17:43,109][DEBUG](PooledDataSource.java:379) - Checked out connection 138214 from pool.
+[2015-12-28 16:17:43,109][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,110][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student 
+[2015-12-28 16:17:43,110][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 16:17:43,114][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 9
+[2015-12-28 16:17:43,114][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,114][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@21be6]
+[2015-12-28 16:17:43,115][DEBUG](PooledDataSource.java:344) - Returned connection 138214 to pool.
+[2015-12-28 16:43:46,647][DEBUG](StudentService.java:106) - findAllStudentForInterface()
+[2015-12-28 16:43:46,763][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 16:43:47,001][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:43:47,002][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:43:47,002][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:43:47,002][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 16:43:47,146][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 16:43:47,149][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 16:43:47,164][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 16:43:47,450][DEBUG](PooledDataSource.java:387) - Created connection 12878215.
+[2015-12-28 16:43:47,451][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@c48187]
+[2015-12-28 16:43:47,453][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 16:43:47,490][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 9(Integer)
+[2015-12-28 16:43:47,508][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 16:43:47,509][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@c48187]
+[2015-12-28 16:43:47,510][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@c48187]
+[2015-12-28 16:43:47,511][DEBUG](PooledDataSource.java:344) - Returned connection 12878215 to pool.
+[2015-12-28 17:00:06,731][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 17:00:06,951][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 17:00:07,223][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:00:07,223][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:00:07,223][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:00:07,223][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:00:07,412][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:00:07,741][DEBUG](PooledDataSource.java:387) - Created connection 5423397.
+[2015-12-28 17:00:07,742][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:00:07,745][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 17:00:07,785][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 17:00:07,802][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 17:00:07,803][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:00:07,803][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:00:07,803][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.
+[2015-12-28 17:00:07,806][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 17:00:07,817][DEBUG](StudentService.java:106) - findAllStudentForInterface()
+[2015-12-28 17:04:52,381][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 17:04:52,479][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 17:04:52,679][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:04:52,679][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:04:52,679][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:04:52,679][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:04:52,813][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:04:53,081][DEBUG](PooledDataSource.java:387) - Created connection 18824904.
+[2015-12-28 17:04:53,082][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f3ec8]
+[2015-12-28 17:04:53,084][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 17:04:53,119][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 17:04:53,136][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 17:04:53,136][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f3ec8]
+[2015-12-28 17:04:53,137][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f3ec8]
+[2015-12-28 17:04:53,137][DEBUG](PooledDataSource.java:344) - Returned connection 18824904 to pool.
+[2015-12-28 17:04:53,140][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 17:04:53,146][DEBUG](StudentService.java:106) - findAllStudentForInterface()
+[2015-12-28 17:08:16,522][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 17:08:16,612][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 17:08:16,807][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:08:16,807][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:08:16,807][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:08:16,808][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:08:16,943][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:08:17,229][DEBUG](PooledDataSource.java:387) - Created connection 18824904.
+[2015-12-28 17:08:17,229][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f3ec8]
+[2015-12-28 17:08:17,232][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 17:08:17,269][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 17:08:17,286][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 17:08:17,286][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f3ec8]
+[2015-12-28 17:08:17,287][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11f3ec8]
+[2015-12-28 17:08:17,287][DEBUG](PooledDataSource.java:344) - Returned connection 18824904 to pool.
+[2015-12-28 17:08:17,289][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 17:08:17,296][DEBUG](StudentService.java:106) - findAllStudentsForInterface()
+[2015-12-28 17:11:19,068][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 17:11:19,174][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 17:11:19,374][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:11:19,374][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:11:19,374][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:11:19,375][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:11:19,513][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:11:19,786][DEBUG](PooledDataSource.java:387) - Created connection 5423397.
+[2015-12-28 17:11:19,786][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:11:19,788][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 17:11:19,824][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 17:11:19,841][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 17:11:19,842][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:11:19,842][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:11:19,843][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.
+[2015-12-28 17:11:19,845][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 17:11:19,852][DEBUG](StudentService.java:106) - findAllStudentsForInterface()
+[2015-12-28 17:11:19,852][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:11:19,852][DEBUG](PooledDataSource.java:379) - Checked out connection 5423397 from pool.
+[2015-12-28 17:11:19,852][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:11:19,853][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 17:11:19,853][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 17:11:19,860][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 9
+[2015-12-28 17:11:19,860][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:11:19,861][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:11:19,861][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.
+[2015-12-28 17:12:04,242][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 17:12:04,323][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 17:12:04,513][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:12:04,514][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:12:04,514][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:12:04,514][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:12:04,649][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:12:04,918][DEBUG](PooledDataSource.java:387) - Created connection 17208977.
+[2015-12-28 17:12:04,919][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1069691]
+[2015-12-28 17:12:04,921][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 17:12:04,956][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 17:12:04,973][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 17:12:04,974][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1069691]
+[2015-12-28 17:12:04,974][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1069691]
+[2015-12-28 17:12:04,975][DEBUG](PooledDataSource.java:344) - Returned connection 17208977 to pool.
+[2015-12-28 17:12:04,977][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 17:12:04,984][DEBUG](StudentService.java:106) - findAllStudentsForInterface()
+[2015-12-28 17:12:04,984][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:12:04,984][DEBUG](PooledDataSource.java:379) - Checked out connection 17208977 from pool.
+[2015-12-28 17:12:04,984][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1069691]
+[2015-12-28 17:12:04,985][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 17:12:04,989][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 17:12:04,992][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 9
+[2015-12-28 17:12:04,992][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1069691]
+[2015-12-28 17:12:04,992][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1069691]
+[2015-12-28 17:12:04,993][DEBUG](PooledDataSource.java:344) - Returned connection 17208977 to pool.
+[2015-12-28 17:12:40,464][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 17:12:40,543][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 17:12:40,740][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:12:40,740][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:12:40,740][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:12:40,740][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:12:40,874][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:12:41,160][DEBUG](PooledDataSource.java:387) - Created connection 4964224.
+[2015-12-28 17:12:41,161][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbf80]
+[2015-12-28 17:12:41,163][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 17:12:41,199][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 17:12:41,216][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 17:12:41,216][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbf80]
+[2015-12-28 17:12:41,217][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbf80]
+[2015-12-28 17:12:41,217][DEBUG](PooledDataSource.java:344) - Returned connection 4964224 to pool.
+[2015-12-28 17:12:41,219][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 17:12:41,226][DEBUG](StudentService.java:106) - findAllStudentsForInterface()
+[2015-12-28 17:12:41,226][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:12:41,230][DEBUG](PooledDataSource.java:379) - Checked out connection 4964224 from pool.
+[2015-12-28 17:12:41,230][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbf80]
+[2015-12-28 17:12:41,231][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 17:12:41,231][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 17:12:41,234][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 9
+[2015-12-28 17:12:41,234][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbf80]
+[2015-12-28 17:12:41,235][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbf80]
+[2015-12-28 17:12:41,235][DEBUG](PooledDataSource.java:344) - Returned connection 4964224 to pool.
+[2015-12-28 17:15:00,198][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 17:15:00,289][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 17:15:00,485][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:15:00,486][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:15:00,486][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:15:00,486][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:15:00,620][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:15:00,887][DEBUG](PooledDataSource.java:387) - Created connection 5423397.
+[2015-12-28 17:15:00,888][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:00,890][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 17:15:00,927][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 17:15:00,944][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 17:15:00,945][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:00,946][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:00,946][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.
+[2015-12-28 17:15:00,948][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 17:15:00,949][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:15:00,950][DEBUG](PooledDataSource.java:379) - Checked out connection 5423397 from pool.
+[2015-12-28 17:15:00,950][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:00,950][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 17:15:00,952][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 10(Integer), 슈퍼울트라성민갓!(String), god@naver.com(String), 2015-12-28 17:15:00.948(Timestamp)
+[2015-12-28 17:15:00,953][DEBUG](BaseJdbcLogger.java:142) - <==    Updates: 1
+[2015-12-28 17:15:00,953][DEBUG](JdbcTransaction.java:71) - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:00,995][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:00,995][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:00,996][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.
+[2015-12-28 17:15:00,996][DEBUG](StudentService.java:106) - findAllStudentsForInterface()
+[2015-12-28 17:15:00,996][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:15:00,996][DEBUG](PooledDataSource.java:379) - Checked out connection 5423397 from pool.
+[2015-12-28 17:15:00,997][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:00,997][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select * from student; 
+[2015-12-28 17:15:00,997][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 17:15:01,000][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 10
+[2015-12-28 17:15:01,001][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:01,001][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:15:01,001][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.
+[2015-12-28 17:17:36,391][DEBUG](StudentService.java:119) - findStudentByIdForInterface()
+[2015-12-28 17:17:36,491][DEBUG](LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2015-12-28 17:17:36,716][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:17:36,716][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:17:36,716][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:17:36,716][DEBUG](PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+[2015-12-28 17:17:36,855][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:17:37,124][DEBUG](PooledDataSource.java:387) - Created connection 5423397.
+[2015-12-28 17:17:37,125][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,127][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student where stud_id=? 
+[2015-12-28 17:17:37,163][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[2015-12-28 17:17:37,179][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 1
+[2015-12-28 17:17:37,180][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,181][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,181][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.
+[2015-12-28 17:17:37,183][DEBUG](StudentService.java:131) - insertStudent()
+[2015-12-28 17:17:37,185][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:17:37,185][DEBUG](PooledDataSource.java:379) - Checked out connection 5423397 from pool.
+[2015-12-28 17:17:37,185][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,186][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: insert into student (stud_id, name, email, dob) values(?, ?, ?, ?) 
+[2015-12-28 17:17:37,187][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 10(Integer), 슈퍼울트라성민갓!(String), god@naver.com(String), 2015-12-28 17:17:37.183(Timestamp)
+[2015-12-28 17:17:37,205][DEBUG](JdbcTransaction.java:81) - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,208][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,208][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,208][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.
+[2015-12-28 17:17:37,212][DEBUG](StudentService.java:106) - findAllStudentsForInterface()
+[2015-12-28 17:17:37,213][DEBUG](JdbcTransaction.java:138) - Opening JDBC Connection
+[2015-12-28 17:17:37,213][DEBUG](PooledDataSource.java:379) - Checked out connection 5423397 from pool.
+[2015-12-28 17:17:37,213][DEBUG](JdbcTransaction.java:102) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,214][DEBUG](BaseJdbcLogger.java:142) - ==>  Preparing: select stud_id as studId, name, email, dob from student; 
+[2015-12-28 17:17:37,214][DEBUG](BaseJdbcLogger.java:142) - ==> Parameters: 
+[2015-12-28 17:17:37,217][DEBUG](BaseJdbcLogger.java:142) - <==      Total: 10
+[2015-12-28 17:17:37,218][DEBUG](JdbcTransaction.java:124) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,218][DEBUG](JdbcTransaction.java:92) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52c125]
+[2015-12-28 17:17:37,218][DEBUG](PooledDataSource.java:344) - Returned connection 5423397 to pool.

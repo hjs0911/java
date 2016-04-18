@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="kr.hkit.mybatis.mappers.StudentMapper">
+	<select id="findStudentById" parameterType="int" resultType="Student">
+		select stud_id as studId, name, email, dob
+		from student
+		where stud_id=#{studId}
+	</select>
+	
+	<select id="findAllStudents" resultType="Student">
+		select stud_id as studId, name, email, dob
+		from student;
+	</select>
+	
+	<insert id="insertStudent" parameterType="Student">
+		insert into student (stud_id, name, email, dob)
+		values(#{studId}, #{name}, #{email}, #{dob})
+	</insert>
+	
+	<select id="findStudentByIdForMixing" parameterType="int" resultType="Student">
+		select stud_id as studId, name, email, dob
+		from student
+		where stud_id=#{studId}
+	</select>
+	
+	<select id="findAllStudentsForMixing" resultType="Student">
+		select stud_id as studId, name, email, dob
+		from student;
+	</select>
+	
+	<insert id="insertStudentForMixing" parameterType="Student">
+		insert into student (stud_id, name, email, dob)
+		values(#{studId}, #{name}, #{email}, #{dob})
+	</insert>
+</mapper>
