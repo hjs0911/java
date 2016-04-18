@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql5-151ae86b979-55cf6ac7be13a713" provider="mysql" driver="mysql5" name="MySQL - bank" create-date="1450332056391" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="bank" url="jdbc:mysql://localhost:3306/bank" user="root" password="AQsJNFNMSwJl8w==" home="C:\Program Files\MySQL\MySQL Server 5.5" type="dev">
+			<property name="@dbeaver-ssl@" value="false"/>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="host" value=""/>
+				<property name="keyPath" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<bootstrap/>
+		</connection>
+	</data-source>
+</data-sources>
