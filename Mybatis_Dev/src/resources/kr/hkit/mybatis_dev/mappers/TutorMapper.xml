@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.hkit.mybatis_dev.mappers.TutorMapper">
+
+	<resultMap type="Tutor" id="TutorResult">
+		<id property="tutorId" column="tutor_id" />
+		<result property="name" column="tutor_name" />
+		<result property="email" column="email" />
+		<collection property="courses"
+		resultMap="kr.hkit.mybatis_dev.mappers.CourseMapper.CourseResult"/>
+	</resultMap>
+	
+	<select id="findTutorById" parameterType="int" resultMap="TutorResult">
+		select t.tutor_id, t.name as tutor_name, email, c.course_id, c.name, description,
+		start_date, end_date
+		from tutors t left join addresses a on t.addr_id = a.addr_id
+			left join courses c on t.TUTOR_ID = c.TUTOR_ID
+		where t.TUTOR_ID = #{tutorId};
+	</select>
+
+</mapper>
