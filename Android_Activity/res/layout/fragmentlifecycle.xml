@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/worddesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아래의 영역은 프래그먼트로 생성되었습니다." />
+
+    <fragment
+        android:id="@+id/countFragment"
+        android:name="kr.hkit.android_activity.fragments.FragmentLifeCycle$CounterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

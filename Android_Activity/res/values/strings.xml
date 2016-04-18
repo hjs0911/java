@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tv_upload">업로드를 시작하려면 다음 버튼을 누르세요.</string>
+    <string name="btnUpload">Upload</string>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.hkit.android_activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RED_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.CommActivity"></activity>
+        <activity android:name=".activity.EditAtivity"></activity>
+        <activity android:name=".activity.FontActivity"></activity>
+        <activity android:name=".activity.CallOther"></activity>
+        <activity android:name=".activity.CallAdd"></activity>
+        <activity android:name=".activity.Add">
+            <intent-filter>
+                <action android:name="kr.hkit.Add"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ActParent"></activity>
+        <activity android:name="ActChild"></activity>
+        <activity android:name=".state.SaveState01"></activity>
+        <activity android:name=".state.SavaState02"></activity>
+        <activity android:name=".state.SavaState03"></activity>
+        <activity android:name=".state.SaveCurve" android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+        <activity android:name=".thread.ThreadEx01"></activity>
+        <activity android:name=".thread.HandlerEx"></activity>
+        <activity android:name=".thread.Handler_PostEx"></activity>
+        <activity android:name=".thread.LooperEx"></activity>
+        <activity android:name=".schedule.UploadEx01"></activity>
+        <activity android:name=".schedule.SendEmptyDelayedEx"></activity>
+        <activity android:name=".schedule.PostDelayedEx"></activity>
+        <activity android:name=".schedule.ViewPostDelayedEx"></activity>
+        <activity android:name="kr.hkit.android_activity.longtime.LongTimeEx"></activity>
+        <activity android:name="kr.hkit.android_activity.longtime.LongTimeEx02"></activity>
+        <activity android:name="kr.hkit.android_activity.longtime.LongTimeEx03"></activity>
+        <activity android:name="kr.hkit.android_activity.longtime.LongTimeEx04"></activity>
+        <activity android:name="kr.hkit.android_activity.longtime.LongTimeEx05"></activity>
+        <activity android:name="kr.hkit.android_activity.longtime.LongTimeEx06"></activity>
+        <activity android:name="kr.hkit.android_activity.longtime.LongTimeEx07"></activity>
+        <activity android:name="kr.hkit.android_activity.longtime.LongTimeEx08"></activity>
+        <activity android:name=".files.FileIO"></activity>
+        <activity android:name=".files.SDCard"></activity>
+        <activity android:name=".files.PrefTest"></activity>
+        <activity android:name=".files.PrefActivity"></activity>
+        <activity android:name=".itents.IntentEx"></activity>
+        <activity android:name=".itents.SubIntent"></activity>
+        <activity android:name="kr.hkit.android_activity.layouts.FrameLayoutEx"></activity>
+        <activity android:name=".layouts.StudentProfil"></activity>
+        <activity android:name=".layouts.StudentInfo"></activity>
+        <activity android:name=".interfaces.Calculator"></activity>
+        <activity android:name=".listviews.ListViewEx01"></activity>
+        <activity android:name=".listviews.ListViewEx02"></activity>
+        <activity android:name=".listviews.ListViewEx03"></activity>
+        <activity android:name=".files.MyFileEx01"></activity>
+        <activity android:name=".fragments.FragmentLifeCycle"></activity>
+        <activity android:name=".fragments.ReuseFragment"></activity>
+        <activity android:name=".fragments.FragmentManager"></activity>
+        <activity android:name=".fragments.FragmentArgument"></activity>
+        <activity android:name=".fragments.ListFragment"></activity>
+        <activity android:name=".fragments.ListFragmentDivide"></activity>
+    </application>
+
+</manifest>
